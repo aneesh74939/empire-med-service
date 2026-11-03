@@ -1,0 +1,13 @@
+{
+  "name": "empire-med-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static marketing site for Empire Med Service, deployed on Cloudflare Pages.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.js",
+    "dev": "node src/build.js && node scripts/serve.js",
+    "test": "node src/build.js && node --test tests/*.test.js"
+  }
+}
