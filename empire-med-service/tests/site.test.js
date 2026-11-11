@@ -61,6 +61,10 @@ test('homepage shows Google reviews and links to the listing', () => {
     assert.ok(!home.html.includes(text), `homepage still includes old review ${text}`);
   assert.ok(home.html.includes('href="https://share.google/u5lIuwctT7Sc54EKP"'));
 });
+test('pricing question is absent from every site page', () => {
+  for (const p of pages)
+    assert.ok(!p.html.includes('How much does it cost?'), `${p.f} still includes the pricing question`);
+});
 test('clean-claim path connector and endpoint stay aligned to their nodes', () => {
   const home = pages.find((p) => p.f === '/index.html');
   assert.ok(home, 'homepage exists');

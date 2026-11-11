@@ -2,7 +2,6 @@ export const homeFaqs = [
   ['What does Empire Med Service do?', 'We handle medical billing, coding, accounts receivable follow-up, credentialing and coverage discovery for U.S. healthcare providers. You can use one service or hand us the full revenue cycle.'],
   ['What is in the free assessment?', 'You tell us about your practice and billing setup, we review the details, and we call you within one business day. A written summary follows the conversation.'],
   ['Are there setup fees or long-term contracts?', 'No. We do not charge setup fees or require a long-term contract.'],
-  ['How much does it cost?', '[ADD PRICING MODEL, e.g. percentage of collections or flat fee]'],
   ['Do you work with practices in my state?', 'Yes. We work with providers in all 50 states.'],
   ['How do you protect patient information?', 'Our work is HIPAA-compliant. Please do not put patient details in our website forms. We set up a secure channel before any records are exchanged.'],
 ];
@@ -18,12 +17,12 @@ export const allFaqs = [
     ['Can I start with one service?', 'Yes. Many providers begin with a single need, such as older AR or credentialing, and decide later whether to add more.'],
   ]},
   { group: 'Security and compliance', items: [
-    homeFaqs[5],
+    homeFaqs[4],
     ['Will you sign a business associate agreement?', 'Yes. A BAA is put in place before we access any protected health information.'],
     ['Can I send patient details through the contact form?', 'Please do not. The forms are for business enquiries only, and email is not the right place for patient details.'],
   ]},
   { group: 'Working together', items: [
-    homeFaqs[4],
+    homeFaqs[3],
   ]},
 ];
 
